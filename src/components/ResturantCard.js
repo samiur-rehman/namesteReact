@@ -1,7 +1,6 @@
 import { IMG_URL } from "./utils/constant";
 
 const ResturantCard = ({ restaurant }) => {
-  // console.log("restaurant", restaurant);
   const {
     name,
     cloudinaryImageId,
@@ -9,7 +8,7 @@ const ResturantCard = ({ restaurant }) => {
     costForTwo,
     cuisines,
     sla: deliveryTime,
-  } = restaurant;
+  } = restaurant?.info;
 
   return (
     <div className="cardContainer">

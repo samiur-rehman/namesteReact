@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Advance React Learning from Akshay Siani",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "author": "Sami",
@@ -13,9 +15,10 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0"
   },
-  "browsersList":[
+  "browsersList": [
     "last 2 versions"
   ]
 }
